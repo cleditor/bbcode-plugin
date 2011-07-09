@@ -59,8 +59,7 @@
 	// any toolbar buttons that are not currently supported.
 	$.cleditor.defaultOptions.controls =
 		"bold italic underline strikethrough removeformat | font color size | bullets numbering | " +
-		//"undo redo | image link unlink | cut copy paste pastetext | print source";
-"undo redo | image link unlink | print source";
+		"undo redo | image link unlink | cut copy paste pastetext | print source";
 
 	// Save the previously assigned callback handlers
 	var oldAreaCallback = $.cleditor.defaultOptions.updateTextArea;
